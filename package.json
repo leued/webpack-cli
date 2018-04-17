@@ -1,0 +1,22 @@
+{
+  "name": "webpack-cli",
+  "version": "1.0.0",
+  "description": "my cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leued/webpack-cli.git"
+  },
+  "author": "liang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leued/webpack-cli/issues"
+  },
+  "homepage": "https://github.com/leued/webpack-cli#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0"
+  }
+}
