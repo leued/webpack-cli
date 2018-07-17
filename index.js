@@ -14,10 +14,18 @@ program
     .command('init [type] [dir]')
     // .option('-r, --recursive', 'Remove recursively')
     .action(function(type, dir) {
+        dir = dir || 'rockcode'
         switch (type) {
             case 'es6':
                 console.log('下载中')
                 download('leued/webpack-tpl', './' + dir, { clone: true }, function(err) {
+                    console.log('下载完成')
+                })
+                break;
+            case 'vue-base':
+                console.log('下载中')
+                download('leued/webpack-tpl-vue-base', './' + dir, { clone: true }, function(err) {
+                    console.log(err)
                     console.log('下载完成')
                 })
                 break;
